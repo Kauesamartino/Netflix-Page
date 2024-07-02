@@ -1,0 +1,226 @@
+/* CONFIGURACOES GERAIS */
+
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+}
+
+
+/* HEADER */
+header{
+    display: flex;
+    align-items: center;
+}
+
+/* CONFIG BANNER */
+.banner{
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 5%, 
+    rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0.8) 100%), 
+    url(../img/banner.jpg);
+    background-size: cover;
+}
+
+/* POSTER */
+.poster{
+    margin: 150px 60px 0 60px;
+    width: 450px;
+}
+
+.poster img{
+    width: 450px;
+}
+
+.sinopse{
+    line-height: 150%;
+    font-weight: 600;
+}
+
+.assistir{
+    border: none;
+    margin: 10px 10px 10px 0;
+    background-color: rgba(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 2px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fas{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.fas{
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+.informacoes{
+    border: none;
+    margin: 10px 10px 10px 0;
+    background-color: #ffffff2f;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    width: 100%;
+    height: 70px;
+    margin: 10px 60px 0 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-logo img{
+    width: 100px;
+    height: 30px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu ul li{
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.nav-menu-usuario{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+/* LISTAS */
+.listas{
+    margin: 120px 60px 0 60px;
+}
+
+.tituloCategoria{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu-filmes{
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.section{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.filme{
+    padding: 0 2px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.filme:hover{
+    transform: scale(1.05);
+}
+
+.filme img{
+    width: 100%;
+    padding: 2px;
+}
+
+.filme:hover{
+    transform: scale(1.05);
+}
+
+.listas img{
+    height: 180px;
+}
+
+/* FOOTER */
+
+footer{
+    margin: 30px 60px 0 60px;
+}
+
+.redes-sociais a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes-sociais i{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.fa-brands{
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.links ul{
+    padding: 0;
+    list-style: none;
+    line-height: 2;
+    font-size: 14px;
+    color: #ffffff80;
+}
+
+.codigo{
+    margin-top: 10px;
+}
+
+.btn-codigo{
+    border: 1px solid #ffffff80;
+    background-color: transparent;
+    color: #ffffff80;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.netflix{
+    margin-top: 30px;
+    font-size: 12px;
+    color: #ffffff80;
+}
